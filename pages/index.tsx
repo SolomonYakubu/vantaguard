@@ -268,8 +268,7 @@ Integration with Exchanges, Security Alerts, Multi-Currency Support`,
 
                   <button
                     onClick={() =>
-                      (window.location.href =
-                        "https://www.dextools.io/app/en/ether/pair-explorer/0xf639e06e795e8e4f7cdf530df864f9171a84e6df")
+                      (window.location.href = "https://www.dextools.io")
                     }
                     className="flex items-center justify-between skew-x-[-20deg] gap-3  font-extrabold text-2xl bg-black hover:scale-105 transition-all  text-white p-2 md:p-5 px-5 w-fit  border-2 border-white border-solid"
                   >
@@ -614,9 +613,7 @@ Integration with Exchanges, Security Alerts, Multi-Currency Support`,
               <div className="flex flex-col items-center  py-3 w-full  transition-all duration-500  md:hover:border-none">
                 <div className="flex  md:flex-row  items-center justify-center w-full  gap-2 md:mb-0 md:my-0 md:mt-6">
                   <button
-                    onClick={() =>
-                      (window.location.href = "https://t.me/MonkeysCult")
-                    }
+                    onClick={() => (window.location.href = "https://t.me")}
                     className="flex items-center justify-between  skew-x-[-20deg]  gap-3  font-extrabold text-xl  hover:scale-105 transition-all  text-white p-2 md:p-5 px-5  w-fit   border-2 border-solid border-white"
                   >
                     <TbBrandTelegram size={60} />
@@ -624,7 +621,7 @@ Integration with Exchanges, Security Alerts, Multi-Currency Support`,
 
                   <button
                     onClick={() =>
-                      (window.location.href = "https://twitter.com/MONKEYSCULT")
+                      (window.location.href = "https://twitter.com")
                     }
                     className="flex items-center justify-between skew-x-[-20deg] gap-3  font-extrabold text-xl  hover:scale-105 transition-all  text-white p-2 md:p-5 px-5 w-fit  border-2 border-solid border-white "
                   >
