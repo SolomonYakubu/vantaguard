@@ -253,7 +253,7 @@ Integration with Exchanges, Security Alerts, Multi-Currency Support`,
                   The Deepest Shade of your Crypto-life protection
                   <br />
                   <br />
-                  ADD - VANTA Browser
+                  $VANTA token
                 </p>
 
                 <div className="flex  md:flex-row  items-center justify-start  gap-2 md:mb-0 my-3 md:my-0 md:mt-6">
@@ -536,9 +536,9 @@ Integration with Exchanges, Security Alerts, Multi-Currency Support`,
             </div>
           </Fade>
           <div className="flex flex-col  justify-center items-center w-full  py-5 grayscale">
-            <div className=" w-2/3 md:w-1/4   block border border-solid border-white p-2">
+            {/* <div className=" w-2/3 md:w-1/4   block border border-solid border-white p-2">
               <ExportedImage src={p1} alt="" layout="responsive" className="" />
-            </div>
+            </div> */}
             <div className=" w-2/3 md:w-1/4   block border border-solid border-white p-2">
               <ExportedImage src={p3} alt="" layout="responsive" className="" />
             </div>
@@ -613,7 +613,9 @@ Integration with Exchanges, Security Alerts, Multi-Currency Support`,
               <div className="flex flex-col items-center  py-3 w-full  transition-all duration-500  md:hover:border-none">
                 <div className="flex  md:flex-row  items-center justify-center w-full  gap-2 md:mb-0 md:my-0 md:mt-6">
                   <button
-                    onClick={() => (window.location.href = "https://t.me")}
+                    onClick={() =>
+                      (window.location.href = "https://t.me/VantaGuard")
+                    }
                     className="flex items-center justify-between  skew-x-[-20deg]  gap-3  font-extrabold text-xl  hover:scale-105 transition-all  text-white p-2 md:p-5 px-5  w-fit   border-2 border-solid border-white"
                   >
                     <TbBrandTelegram size={60} />
@@ -621,7 +623,7 @@ Integration with Exchanges, Security Alerts, Multi-Currency Support`,
 
                   <button
                     onClick={() =>
-                      (window.location.href = "https://twitter.com")
+                      (window.location.href = "https://twitter.com/vantaguard/")
                     }
                     className="flex items-center justify-between skew-x-[-20deg] gap-3  font-extrabold text-xl  hover:scale-105 transition-all  text-white p-2 md:p-5 px-5 w-fit  border-2 border-solid border-white "
                   >
